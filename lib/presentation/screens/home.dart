@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:news/presentation/widgets/news_list_builder.dart';
-
-import '../widgets/cards_list.dart';
-import '../widgets/category_element.dart';
 import '../widgets/category_list.dart';
-import '../widgets/news_card.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

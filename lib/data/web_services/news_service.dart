@@ -1,6 +1,5 @@
-import 'package:news/constants/strings.dart';
-import 'package:news/data/models/news_model.dart';
 import 'package:dio/dio.dart';
+import '../models/news_model.dart';
 
 class NewsService {
   Dio dio=Dio();

@@ -1,5 +1,3 @@
-import 'package:flutter/foundation.dart';
-
 class  NewsModel {
   final String? imgUrl;
   final String title;
