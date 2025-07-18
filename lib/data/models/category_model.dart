@@ -1,6 +1,8 @@
+import 'dart:ui';
+
 class CategoryModel {
-  final String imageUrl;
+  final Color imageColor;
   final String categoryName;
 
-  CategoryModel({required this.imageUrl, required this.categoryName});
+  CategoryModel({required this.imageColor, required this.categoryName});
 }
