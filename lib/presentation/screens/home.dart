@@ -35,7 +35,12 @@ class HomeScreen extends StatelessWidget {
           NewsListBuilder(),
         ],
       ),
+      bottomNavigationBar: BottomNavigationBar(items:  [
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home',),
+        BottomNavigationBarItem(icon: Icon(Icons.sunny_snowing), label: 'Weather'),
+        BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Settings'),
 
+      ]),
     );
   }
 }
