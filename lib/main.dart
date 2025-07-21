@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:news/presentation/screens/home.dart';
 
+import 'constants/strings.dart';
 import 'data/web_services/news_service.dart';
 void main() {
   NewsService newsService= NewsService();
-  newsService.getNews();
+  newsService.getNews(category as String);
   runApp(const MyApp());
 }
 

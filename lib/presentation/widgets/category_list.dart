@@ -4,7 +4,6 @@ import 'package:news/data/models/category_model.dart';
 
 
 List<CategoryModel> categoryList=[
-  CategoryModel(imageColor: Colors.deepOrangeAccent, categoryName: 'All'),
   CategoryModel(imageColor: Colors.lightBlue, categoryName: 'General'),
   CategoryModel(imageColor: Colors.green, categoryName: 'Sports'),
   CategoryModel(imageColor: Colors.red, categoryName: 'Business'),
@@ -15,10 +14,16 @@ List<CategoryModel> categoryList=[
 ];
 
 
-class CategoryList extends StatelessWidget {
+class CategoryList extends StatefulWidget {
   const CategoryList({
     super.key,
   });
+
+  @override
+  State<CategoryList> createState() => _CategoryListState();
+}
+
+class _CategoryListState extends State<CategoryList> {
 
   @override
   Widget build(BuildContext context) {

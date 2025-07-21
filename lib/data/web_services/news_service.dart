@@ -1,11 +1,13 @@
 import 'package:dio/dio.dart';
+import 'package:news/constants/strings.dart';
 import '../models/news_model.dart';
 
 class NewsService {
   Dio dio=Dio();
 
-  Future<List<NewsModel>?> getNews() async {
-    Uri url= Uri.parse('https://newsapi.org/v2/everything?q=bitcoin&apiKey=e68c3876c1034ceca9e809a59eafb80a');
+
+  Future<List<NewsModel>?> getNews(String category) async {
+    Uri url= Uri.parse('https://newsapi.org/v2/top-headlines?category=general&apiKey=e68c3876c1034ceca9e809a59eafb80a');
     try{
       Response response=await dio.get(url.toString());
       List<NewsModel> SavedList=[];
