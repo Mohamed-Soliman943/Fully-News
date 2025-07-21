@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:news/presentation/widgets/news_list_builder.dart';
 import '../widgets/category_list.dart';
 
@@ -10,19 +9,24 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Text('News', style: TextStyle(
+            Text('Ready', style: TextStyle(
               color: Colors.black,
               fontSize: 28,
             ),),
-            Text('App', style: TextStyle(
+            Text('News', style: TextStyle(
               color: Colors.orange,
               fontSize: 28,
             ),),
           ],
         ),
+        actions: [
+          IconButton(onPressed: (){
+
+          }, icon: Icon(Icons.sunny)),
+        ],
       ),
       body: Column(
 

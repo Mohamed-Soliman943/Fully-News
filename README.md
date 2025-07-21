@@ -1,16 +1,41 @@
-# news
+# 📰 Flutter News App
 
-A new Flutter project.
+A modern news application built with Flutter that displays the latest headlines from various categories using a sleek and responsive design.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🔥 Features
+
+- ✅ Built with **Flutter** (Cross-platform)
+- 🌐 Fetches real-time news from a public API (e.g., NewsAPI.org)
+- 📂 Categorized News: Business, Sports, Science, Technology, Health, etc.
+- 🌓 Light and Dark Mode support ------ (On process)
+- 🌍 In-app browser (WebView) to read full articles ------ (On process)
+- 📱 Responsive design (works on all screen sizes)
+- 🔄 Pull to refresh support
+
+---
+
+## 📦 Tech Stack
+
+| Tool | Usage                                                                        |
+|-----|------------------------------------------------------------------------------|
+| Flutter | Main development framework                                                   |
+| Dio | API networking                                                               |
+| Cubit / Bloc | State management *(Started working on it to apply the categories filtering)* |
+| WebView | To open full articles ------on process                                       |
+
+---
+
+## 🛠 Installation Steps
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Mohamed-Soliman943/Fully-News.git
