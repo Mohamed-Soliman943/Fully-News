@@ -5,7 +5,7 @@ import 'package:news/data/models/news_model.dart';
 import 'news_card.dart';
 
 class CardsList extends StatelessWidget {
-  List<NewsModel> newsList;
+  List<dynamic> newsList;
   CardsList({
     super.key, required this.newsList
   });

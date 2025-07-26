@@ -24,12 +24,12 @@ A modern news application built with Flutter that displays the latest headlines 
 
 ## 📦 Tech Stack
 
-| Tool | Usage                                                                        |
-|-----|------------------------------------------------------------------------------|
-| Flutter | Main development framework                                                   |
-| Dio | API networking                                                               |
-| Cubit / Bloc | State management *(Started working on it to apply the categories filtering)* |
-| WebView | To open full articles ------on process                                       |
+| Tool | Usage                                                                       |
+|-----|-----------------------------------------------------------------------------|
+| Flutter | Main development framework                                                  |
+| Dio | API networking                                                              |
+| Cubit / Bloc | State management |
+| WebView | To open full articles ------on process                                      |
 
 ---
 
