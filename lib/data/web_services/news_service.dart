@@ -7,7 +7,7 @@ class NewsService {
 
 
   Future<List<NewsModel>?> getNews(String category) async {
-    Uri url= Uri.parse('https://newsapi.org/v2/top-headlines?category=$category&apiKey=e68c3876c1034ceca9e809a59eafb80a');
+    Uri url= Uri.parse('https://newsapi.org/v2/top-headlines?category=$category&country=us&apiKey=e68c3876c1034ceca9e809a59eafb80a');
     try{
       Response response=await dio.get(url.toString());
       List<NewsModel> SavedList=[];
