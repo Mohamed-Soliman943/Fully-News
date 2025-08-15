@@ -7,8 +7,9 @@ import '../../data/web_services/news_service.dart';
 part 'category_state.dart';
 
 class CategoryCubit extends Cubit<CategoryState> {
-  CategoryCubit(NewsService newsService) : super(CategoryInitial());
   final NewsService newsService = NewsService();
+
+  CategoryCubit(NewsService newsService) : super(CategoryInitial());
   Future<void> getNews() async {
   emit(CategoryInitial());
     try{

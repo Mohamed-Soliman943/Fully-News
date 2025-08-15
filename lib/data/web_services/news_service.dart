@@ -13,7 +13,7 @@ class NewsService {
       List<NewsModel> SavedList=[];
       if (response.statusCode==200){
           List<dynamic> newsList=response.data['articles'];
-          print(newsList);
+          //print(newsList);
 
           for (var news in newsList){
               NewsModel newsModel =
